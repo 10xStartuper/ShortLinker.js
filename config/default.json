@@ -1,0 +1,5 @@
+{
+  "port": 5000,
+  "jwtSecret": "MrAbdurakhimov on Github",
+  "mongoUri": "mongodb+srv://iCoderX:1233211122@cluster0.tzeyo.mongodb.net/app?retryWrites=true&w=majority"
+}
