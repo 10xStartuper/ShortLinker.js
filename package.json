@@ -7,7 +7,9 @@
     "start": "node app.js",
     "server": "nodemon app.js",
     "client": "npm run start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "format": "prettier --write --check \"**/*.{js,json,md}\"\n",
+    "format:check": "prettier --check \"**/*.{js,json,md}\"\n"
   },
   "keywords": [
     "mern",
@@ -28,6 +30,7 @@
   },
   "devDependencies": {
     "concurrently": "^5.3.0",
-    "nodemon": "^2.0.6"
+    "nodemon": "^2.0.6",
+    "prettier": "^2.1.2"
   }
 }

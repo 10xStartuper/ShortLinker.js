@@ -1,1 +1,4 @@
 @import "~materialize-css/dist/css/materialize.min.css";
+body{
+    background: #e3f2fd;
+}
